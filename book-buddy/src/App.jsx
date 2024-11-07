@@ -1,5 +1,6 @@
 import AllBooks from "./AllBooks"
 import { Routes, Route } from "react-router-dom"
+import BookDetails from "./BookDetails"
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <Routes>
 
     <Route path = "/" element = {<AllBooks />}/>
+    <Route path ="books/:id" element = {<BookDetails/>}/>
 
     </Routes>
     </>
