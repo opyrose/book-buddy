@@ -1,3 +1,13 @@
 body {
   background-color: rgb(144, 202, 170);
 }
+#all-books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h1 , h2{
+ display: flex;
+justify-content: center;
+}
