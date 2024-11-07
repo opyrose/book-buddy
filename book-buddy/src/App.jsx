@@ -1,3 +1,5 @@
+import AllBooks from "./AllBooks"
+import { Routes, Route } from "react-router-dom"
 
 
 const App = () => {
@@ -5,7 +7,13 @@ const App = () => {
 
   return (
     <>
-    <h1>Book Buddy</h1>
+  <h1>Book Buddy</h1>
+
+    <Routes>
+
+    <Route path = "/" element = {<AllBooks />}/>
+
+    </Routes>
     </>
   )
 }
