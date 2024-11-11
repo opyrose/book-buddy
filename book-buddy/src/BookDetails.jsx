@@ -24,9 +24,12 @@ const BookDetails = () => {
 return (
     <>
     <h1>{selectedBook.title}</h1>
+    <div id ="single-book" >
     <img src={selectedBook.coverimage} alt={"Cover of ${selectedBook.title}"}
     height={400}
     width={375}/>
+
+    </div>
     <h2>{selectedBook.author}</h2>
     <p>{selectedBook.description}</p>
     <button onClick={(()=>{

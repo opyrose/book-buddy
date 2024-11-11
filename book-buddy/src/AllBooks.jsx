@@ -27,12 +27,12 @@ const AllBooks = () => {
           bookItem.map((book) => {
             return (
               <>
-                <section key={book.id} onClick = {(() =>{navigate (`books/${book.id}`)})}>
-                {console.log(`clicked`)}
+                <section key={book.id} onClick={(() => { navigate(`books/${book.id}`) })}>
                   <img src={book.coverimage}
                     alt={"This is the cover of ${book.title}"}
                     width={250}
                     height={275} />
+
                   <h2>{book.title}</h2>
                 </section>
               </>

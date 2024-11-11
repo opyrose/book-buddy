@@ -11,3 +11,13 @@ h1 , h2{
  display: flex;
 justify-content: center;
 }
+nav > a{
+ display: flex;
+ color: black;
+}
+#single-book {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
